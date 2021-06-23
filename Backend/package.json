@@ -1,0 +1,30 @@
+{
+  "name": "sr-api",
+  "version": "1.0.0",
+  "description": "Sr Api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "mongodb"
+  ],
+  "author": "Faheem",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongo-join": "^1.0.0",
+    "mongoose": "^5.9.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7"
+  }
+}
